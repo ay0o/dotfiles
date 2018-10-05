@@ -1,0 +1,10 @@
+parse_git_branch() {
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+alias grep='grep --color=auto'
+alias ls='ls -G'
+export PS1="\[\033[01;32m\]\u\[\033[00;37m\]@\[\033[01;34m\]\h\[\033[01;37m\]:\[\033[01;36m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[01;35m\]\$\[\033[00m\] "
+export HISTTIMEFORMAT="%m/%d/%y %T "
+export HOMEBREW_NO_ANALYTICS=1
+export EDITOR=vim
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
