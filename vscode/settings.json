@@ -1,0 +1,23 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "workbench.colorTheme": "One Monokai",
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    "workbench.list.openMode": "doubleClick",
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorCustomizations": {
+        "editor.background": "#131313",
+    },
+    "editor.wordWrap": "on",
+    "files.trimTrailingWhitespace": true,
+    "python.disableInstallationCheck": true,
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501",
+        "--max-line-length=120",
+    ],
+    "python.linting.pylintEnabled": false,
+    "explorer.confirmDragAndDrop": false,
+}
