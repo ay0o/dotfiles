@@ -1,6 +1,6 @@
 hi clear
 
-let g:colors_name="ayozint"
+let g:colors_name="ayocolors"
 
 "Main colors
 hi Normal                    ctermfg=254 ctermbg=233
