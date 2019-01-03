@@ -15,7 +15,7 @@
     "python.pythonPath": "/usr/local/bin/python3",
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
-        "--ignore=E501",
+        "--ignore=E501,E402",
         "--max-line-length=120",
     ],
     "python.linting.pylintEnabled": false,
