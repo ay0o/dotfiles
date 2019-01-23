@@ -20,4 +20,5 @@
     ],
     "python.linting.pylintEnabled": false,
     "explorer.confirmDragAndDrop": false,
+    "explorer.autoReveal": false,
 }
