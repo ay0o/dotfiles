@@ -9,4 +9,4 @@ export HOMEBREW_NO_ANALYTICS=1
 export EDITOR=vim
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 alias python='python3'
-alias pip='pip3
+alias pip='pip3'
