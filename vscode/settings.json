@@ -22,4 +22,6 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.autoReveal": false,
     "terraform.telemetry.enabled": false,
+    "terminal.integrated.shell.osx": "zsh",
+    "terminal.integrated.fontFamily": "Meslo LG M for Powerline"
 }
