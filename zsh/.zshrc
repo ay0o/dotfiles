@@ -103,3 +103,4 @@ source $ZSH/oh-my-zsh.sh
 
 
 export HOMEBREW_NO_ANALYTICS=1
+export GOPATH='/Users/ayoze/.go'
