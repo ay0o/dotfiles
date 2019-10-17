@@ -104,3 +104,5 @@ source $ZSH/oh-my-zsh.sh
 unsetopt share_history
 export HOMEBREW_NO_ANALYTICS=1
 export GOPATH='/Users/ayoze/.go'
+
+alias clean_dangling="docker images -f \"dangling=true\" -q | xargs docker rmi -f"
